@@ -1,0 +1,37 @@
+wrlabs-integration
+==================
+
+This layer provides binaries from 3rd party vendors or stub installers
+to perform the install from a 3rd party.
+
+Maintenance
+-----------
+This layer is maintained by Wind River Systems, Inc.
+Contact <support@windriver.com> or your support representative for more
+information on submitting changes.
+
+Building the vendor-proprietary layer
+-------------------------------------
+This layer should be added to the bblayers.conf file.
+
+Dependencies
+------------
+
+This layer depends on the layers specified by the wr-core project
+and was only intended for use with the wr-core project.
+The wr-core project can be found at:
+
+https://github.com/WindRiver-OpenSourceLabs/wr-core
+
+License
+-------
+Copyright (C) 2016 Wind River Systems, Inc.
+
+The right to copy, distribute or otherwise make use of this software may
+be licensed only pursuant to the terms of an applicable Wind River license
+agreement.  No license to Wind River intellectual properly rights is granted
+herein.  All rights not licensed by Wind River are reserved by Wind River.
+
+Source code included in the tree for individual recipes is under the LICENSE
+stated in each recipe (.bb file) unless otherwise stated.
+
