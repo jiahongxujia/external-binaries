@@ -11,7 +11,7 @@ DESCRIPTION = "Google Chrome Latest Stable Stub installer"
 
 DEMO_BROWSER_CACHE_INSTALL ?= "0"
 
-RDEPENDS_${PN} = "bash xdg-utils libexif cairo freetype libxcursor libxtst nss libxi libxscrnsaver fontconfig gdk-pixbuf libxdamage libxext libxrandr libasound dbus-lib glib-2.0 gtk+ gconf pango libxfixes nspr libx11 atk libxcomposite libxrender cups-lib xz"
+RDEPENDS_${PN} = "bash xdg-utils libexif cairo freetype libxcursor libxtst nss libxi libxscrnsaver fontconfig gdk-pixbuf libxdamage libxext libxrandr libasound dbus-lib glib-2.0 gtk+3 gconf pango libxfixes nspr libx11 atk libxcomposite libxrender cups-lib xz"
 
 LICENSE = "Proprietary"
 LIC_FILES_CHKSUM = "file://../eula_text.html;md5=da54da9383ddffa44c5db45513239da2"
