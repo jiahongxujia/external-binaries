@@ -53,7 +53,7 @@ EOF
 	fi
 }
 
-pkg_preinst_${PN} () {
+pkg_postinst_${PN} () {
     #!/bin/sh -e
     if [ x"$D" != "x" ]; then
         echo "Cross install not supported"
